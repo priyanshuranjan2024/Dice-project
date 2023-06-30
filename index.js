@@ -33,10 +33,10 @@ if (randomNumber2===1){
 document.firstElementChild.lastElementChild.firstElementChild.lastElementChild.querySelector("img").setAttribute("src",randomimg2);
 //h1 changing
 if(randomNumber1>randomNumber2){
-    h1change=" &#127937; Player 1 Wins!";
+    h1change=" &#127937; Player 1 Wins! Refresh Again";
 }else if(randomNumber1===randomNumber2){
-    h1change="Draw!";
+    h1change="Draw! Refresh Again";
 }else{
-    h1change="Player 2 Wins! &#127937;";
+    h1change="Player 2 Wins! &#127937 Refresh Again;";
 }
 document.firstElementChild.lastElementChild.firstElementChild.querySelector("h1").innerHTML=h1change;
