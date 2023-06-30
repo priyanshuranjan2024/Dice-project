@@ -37,6 +37,6 @@ if(randomNumber1>randomNumber2){
 }else if(randomNumber1===randomNumber2){
     h1change="Draw! Refresh Again";
 }else{
-    h1change="Player 2 Wins! &#127937 Refresh Again;";
+    h1change="Player 2 Wins! &#127937; Refresh Again";
 }
 document.firstElementChild.lastElementChild.firstElementChild.querySelector("h1").innerHTML=h1change;
